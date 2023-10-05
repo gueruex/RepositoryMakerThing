@@ -1,0 +1,31 @@
+[baseos-local]
+name=Local BaseOS Repo
+baseurl=/var/repo/baseos
+enabled=1
+gpgcheck=0
+
+[appstream-local]
+name=Local AppStream Repo
+baseurl=/var/repo/appstream
+enabled=1
+gpgcheck=0
+
+[extras-local]
+name=Local Extras Repo
+baseurl=/var/repo/extras
+enabled=1
+gpgcheck=0
+
+[epel-local]
+name=Local EPEL Repo
+baseurl=/var/repo/epel
+enabled=1
+gpgcheck=0
+
+[powertools-local]
+name=Local Powertools Repo
+baseurl=/var/repo/powertools
+enabled=1
+gpgcheck=0
+
+#Replace base url with the path of the local repositories on airgapped devices
