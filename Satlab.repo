@@ -28,4 +28,5 @@ baseurl=/var/repo/powertools
 enabled=1
 gpgcheck=0
 
-#Replace base url with the path of the local repositories on airgapped devices
+#Replace base url with the path of the local repositories on offline system
+#Place this file in /etc/yum.repo.d/
